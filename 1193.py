@@ -10,6 +10,6 @@ while put > 0:
     count += 1
 
 if count % 2 != 0:
-    print('{0}/{1}'.format(1 -put,count + put))
+    print("{0}/{1}".format(1 - put, count + put))
 else:
-    print('{0}/{1}'.format(count + put,1 -put))
+    print("{0}/{1}".format(count + put, 1 - put))
